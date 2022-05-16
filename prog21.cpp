@@ -1,9 +1,9 @@
-/* Autor: Andriks Imanol Ruiz M醨tinez, Realizado: 03/03/2022
+/* Autor: Andriks Imanol Ruiz Mart铆nez, Realizado: 03/03/2022
 Escuela: Universidad del Valle de Mexico Campus Villahermosa 
-Materia: Programaci髇 Estructrada 
+Materia: Programaci贸n Estructrada 
 Ciclo: 01/2022
 
-Este es un programa de  funciones y ciclo en Lenguaje C de la materia de Programaci髇 Estructurada
+Este es un programa de  funciones y ciclo en Lenguaje C de la materia de Programaci贸n Estructurada
 Muestra el uso de:
   
     -Variables flotantes y enteros
@@ -13,14 +13,14 @@ Muestra el uso de:
     -for
     -Prototipos
     -El uso de include para las librerias
-    -Comentarios para la documentaci髇 interna del programa
+    -Comentarios para la documentaci贸n interna del programa
 */
 #include<stdio.h>
 //prototipos
 float calcularAhorro(float capital, int meses);
 //Main
 int main() {
-	//Declaraci髇 de variable
+	//Declaraci贸n de variable
 	float dinero, ahorro;
 	int periodo;
 	//Proceso
@@ -33,9 +33,9 @@ int main() {
 	printf("Al final del periodo obtendras. %.2f", ahorro);
 	return 0;
 }
-//Funci髇
+//Funci贸n
 float calcularAhorro(float capital, int meses){
-	//Declaraci髇
+	//Declaraci贸n
 	float total=capital;
 	for(int i=0;i<meses;i++){ //Ciclo
 		total= total*0.04+total;
